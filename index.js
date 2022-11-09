@@ -22,5 +22,3 @@ btn.addEventListener("click", function (event) {
   event.preventDefault();
   location.reload();
 });
-
-// test
