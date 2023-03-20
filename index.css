@@ -1,13 +1,13 @@
 
 body{
-    width: 550px;
-    height: 550px;
+    width: 35rem;
+    min-width: 360px;
     margin: 0 auto;
     padding: 0;
     background-color: #fff;
     font-size: 16px;
     font-family: 'Inter', sans-serif;;
-    border: 1px solid #D1D5DB;
+    /* border: 1px solid #D1D5DB; */
 }
 
 .body-decor{
@@ -31,7 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border: 1px solid #D1D5DB;
+    /* border: 1px solid #D1D5DB; */
 }
 
 .input{
@@ -52,7 +52,7 @@ header{
 }
 
 .dropdown::first-letter{
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .btn{
@@ -62,4 +62,10 @@ header{
     font-size: 12px;
     font-weight: 500;
     padding: 11px;
+}
+
+@media (max-width: 550px){
+    body{
+        width: 95%;
+    }
 }
